@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+header {
+    height: 10rem;
+
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    min-height: var(--altura-main);
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo {
+    height: 70%;
+    text-align: center;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
