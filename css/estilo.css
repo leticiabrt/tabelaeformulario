@@ -18,7 +18,7 @@ header {
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -27,12 +27,12 @@ h2 {
 }
 
 a {
-    color: rgb(255, 255, 255);
+    color: rgba(221, 1, 1, 0.568);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(29, 65, 110);
 }
 
 a:hover {
@@ -58,4 +58,16 @@ main {
     align-items: center;
     justify-content: center;
 
+}
+
+section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+menu{
+    height: 20%;
+    color: blueviolet;
 }
