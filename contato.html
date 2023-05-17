@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/responsivo.css">
 </head>
+
 <body>
     <header>
         <div id="titulo">
@@ -31,6 +33,66 @@
             </ul>
         </nav>
     </header>
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <br>Nome:
+            <input type="text" name="nome">
+            <br>Email:
+            <input type="email" name="email">
+            <br>
+            <input type="radio" name="sexo" value="masc" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sexo" value="fem" id="fem">
+            <label for="fem">Feminino</label>
+            <br />
+            <label for="estado">Estado</label>/<label for="cidade">Cidade</label>
+            <select name="estado" id="estado">
+                <option value=""> </option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select>
+            <input type="text" name="cidade" id="cidade" placeholder="Varginha"> <br>
+            Selecione um arquivo
+            <input type="file" name="arquivo">
+            <br>
+            <label for="sug">Sugestão</label> <br>
+            <textarea name="sug" id="sug" cols="30" rows="10" required></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
 
-	</body>
+        </fieldset>
+    </form>
+    <footer>
+        <p>
+            &copy; copyleft<br>
+        </p>
+    </footer>
+</body>
+
 </html>

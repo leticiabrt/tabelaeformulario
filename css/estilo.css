@@ -26,19 +26,6 @@ h2 {
     text-align: center;
 }
 
-a {
-    color: rgba(221, 1, 1, 0.568);
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgb(29, 65, 110);
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 main {
     min-height: var(--altura-main);
     width: 70%;
@@ -46,6 +33,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 7rem;
 }
 
 #titulo {
@@ -70,4 +58,68 @@ section{
 menu{
     height: 20%;
     color: blueviolet;
+}
+
+table tr th, table tr td{
+    border: 0.3rem solid #f816f8;
+    padding: 0.8rem;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+.materia{
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(172, 33, 172);
+    height: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0rem;
+
+    
+}
+
+form button {
+    background-color: #8d36ff;
+    max-width: 20%;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    border:0;
+    color: white;
+}
+
+input {
+    height: 2rem;
+}
+
+fieldset {
+    padding: 1%;
+    width: 50%;
+    
+    
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: rgb(255, 0, 242);
+}
+
+a:visited {
+    color: rgb(0, 115, 255);
+}
+
+a:hover {
+    color: #8d36ff;
 }
