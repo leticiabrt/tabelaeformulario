@@ -1,10 +1,9 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     outline: 0;
     color: black;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 :root {
@@ -26,14 +25,9 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
-h2 {
-    font-weight: 400;
-    text-align: center;
-}
-
 main {
     min-height: var(--altura-main);
-    width: 70%;
+    width: 90%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -44,11 +38,11 @@ main {
 #center-main {
     width: 100%;
     height: 90%;
+    margin-top: 2rem;
 }
 
 h2 {
-    font-weight: 400;
-    text-align: center;
+    font-weight: bold;
 }
 
 #titulo {
@@ -68,6 +62,7 @@ section{
     align-items: center;
     height: 100vh;
     flex-direction: column;
+    margin-top: 2rem;
 }
 
 menu{
@@ -76,13 +71,15 @@ menu{
 }
 
 table tr th, table tr td{
-    border: 0.3rem solid #f816f8;
+    border: 0.2rem solid #f816f8;
     padding: 0.45rem;
     text-align: center;
 }
-table{
+
+table {
     border-collapse: collapse;
 }
+
 .materia{
     text-align: left;
 }
@@ -110,13 +107,11 @@ form button {
     height: 5rem;
     width: 5rem;
     border-radius: 50%;
-    border:0;
+    font-size: medium;
     color: white;
-}Pergunta 5
-
-input {
-    height: 2rem;
 }
+
+
 
 fieldset {
     padding: 1%;
@@ -155,4 +150,22 @@ a:visited {
 a:hover {
     color: #d82fb4;
     text-decoration: underline;
+}
+
+caption {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+legend {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#center-main {
+    margin-top: 2rem;
+}
+
+#textarea {
+    row-gap: ;
 }
